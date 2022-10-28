@@ -1,26 +1,117 @@
 
+body{
+    margin: 0px;
+}
 .up-box1{
 
     background-color: #333333; 
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white; 
     height: 60px;
-    width: auto
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+
 }
 .up-box2{
     /* background-color:#1594c3;#09ac83 */
-    background-image: linear-gradient(to right top,#1594c3,#09ac83,#03b864)  ;
+    top: 60px;
+    background-image: linear-gradient(to right,#1d82f0,#0f9fa3,#07ad7e,#02bb5c)  ;
     color:white;
     height: 40px;
     width:100%;
+    position: absolute;
+    z-index: 2;
+
 }
 .up-box3{
     background-color: white;
+    position: absolute;
     color: black;
     height: 80px;
+    width:100%;
+    z-index: 2;
+    top:100px;
+}
+.up-box4{
+    position: absolute;
+    top:180px;
 }
 .title{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     font-size: 70px;
+    z-index: 2;
+}
+
+.up-box2-child1 {
+    padding-left: 10%;
+    display:inline-flex;
+    width: 50%;
+    line-height: 40px;
+}
+.up-box2-child2 {
+    padding-right: 10%;
+    float: right;
+    display:inline-flex;
+}
+.up-box2-child1 span{
+    line-height: 30px;
+    margin:5px 8px 5px 8px;
+
+}
+.up-box2-child2 span{
+    margin:5px 8px 5px 8px;
+    line-height: 30px;
+}
+.up-box3-child1{
+    display:inline-flex;
+    width: 19%;
+    color: black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height:80px;
+    padding-left: 10%;
+    float: left;
+
+}
+.up-box3-child1 i{
+    color: green;
+   line-height:80px;
+}
+.up-box3-child2 {
+    display:inline-flex;
+    font-size: 16px;
+    line-height:80px;
+    height: 80px;
+    width: 65%;
+    padding-left:6%;
+    float: right;
+}
+.up-box3-child2 ul{
+    display:inline-flex;
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+.up-box3-child2 ul li{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.up-box3-child2  ul li:hover{
+    transform: scale(0.9);
+    z-index: 10;
+    /* background: #25bcff; */
+    /* box-shadow: 0 5px 25px rgba(0,0,0,.2); */
+    color: #00bd56;
+    border-bottom: #00bd56 solid 3px;
+
+    /* opacity: 1; */
 }
