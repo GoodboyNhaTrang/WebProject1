@@ -117,27 +117,14 @@ body{
 }
 .up-box4-child1{
     display: inline-block;
+    position: relative;
 }
 .title{
 text-align: center;
+width: 100%;
+position: absolute;
+top: 100px;
 }
 
-.shop {
-	background-image: url(https://pets-land.ancorathemes.com/wp-content/uploads/2017/07/title_bg.jpg?id=413) !important;
-	background-position: center !important;
-	background-repeat: no-repeat !important;
-	background-size: cover !important;
-	margin-left: -15px;
-	margin-right: -15px;
-	font-size: 32px;
-	padding: 2em 0;
-	box-sizing: border-box;
-	margin-bottom: 0;
-	position: relative;
-	display: block;
-}
-.box_shop {
-	width: 100%;
-}
 
 
